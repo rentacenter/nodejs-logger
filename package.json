@@ -1,5 +1,5 @@
 {
-  "name": "logzio-nodejs",
+  "name": "nodejs-logger",
   "version": "1.0.0",
   "description": "Abstracts away logging implementation from the application.",
   "main": "logger.js",

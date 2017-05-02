@@ -1,7 +1,7 @@
 'use strict';
 
 // Include custom logger (<environment>, <application>, <originator>)
-require('./logger.js')('dev', 'utilities', 'logzio-nodejs-test');
+require('./logger.js')('dev', 'utilities', 'nodejs-logger-test');
 
 // Call standard log methods
 console.log('console %s', 'log');
@@ -26,4 +26,5 @@ console.flushAndClose && console.flushAndClose(function (err) {
         // of course this log may not get sent remotely
         console.info('successfully flushed');
     }
+    // signal end-of-execution now
 });
