@@ -6,9 +6,6 @@ When instantiating this logging library, you will supply *environment*, *applica
 
 The current library prints all log events both to the console (stdout or stderr, depending on log level) and to Logz.io
 
-```
-
-
 ## Install Dependencies
 
 ```
